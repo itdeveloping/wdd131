@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,12 +53,15 @@ nav ul li a:hover {
     border-radius: 7px;
 }
 
-
-
 header {
     grid-column: 1 / 4;
     grid-row: 1;
     background-color: rgb(99, 99, 100);
+}
+
+main {
+    grid-column: 1 / 4;
+    display: grid;
 }
 
 .main {
