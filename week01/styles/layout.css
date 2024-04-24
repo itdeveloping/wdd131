@@ -23,7 +23,7 @@ nav {
 
 }
 
-nav ul {
+nav {
     display: flex;
     flex-direction: row;
     flex-basis: auto;
@@ -32,21 +32,18 @@ nav ul {
     margin: 0px;
 }
 
-nav ul li {
+nav a:link {
     flex-shrink: 1;
     flex-grow: 1;
-
-}
-
-nav ul li a:link {
     text-decoration: none;
     color: white;
     padding: 10px 25px;
     margin: 10px;
     font-weight: bold;
+    text-align: center;
 }
 
-nav ul li a:hover {
+nav a:hover {
     text-decoration: none;
     color: rgb(156, 13, 13);
     background-color: rgb(209, 204, 204);
